@@ -1,0 +1,25 @@
+{
+	"name": "sergks/yii2-slug-behavior",
+	"description": "The transliterate text for the Yii2 framework",
+	"keywords": ["yii2", "transliterate"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"source": "https://github.com/sergKs/yii2-slug-behavior"
+	},
+	"authors": [
+		{
+			"name": "sergKs",
+			"email": "serg31ks@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": ">=2.0.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"sergks\\transliterate\\": ""
+		}
+	}
+}
